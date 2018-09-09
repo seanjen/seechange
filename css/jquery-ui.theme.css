@@ -111,10 +111,10 @@ a.ui-button:focus {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-	border: 1px solid #ffffff;
-	background: #6E2A8D;
-	font-weight: normal;
-	color: #ffffff;
+    border: 1px solid #ffffff;
+    background: #0c77ae;
+    font-weight: normal;
+    color: #ffffff;
 }
 .ui-icon-background,
 .ui-state-active .ui-icon-background {
@@ -133,13 +133,13 @@ a.ui-button:active,
 .ui-state-highlight,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
-	border: 1px solid #6E2A8D;
-	background: #6E2A8D;
-	color: #ffffff;
+    border: 1px solid #0c77ae;
+    background: #0c77ae;
+    color: #ffffff;
 }
 .ui-state-checked {
-	border: 1px solid #6E2A8D;
-	background: #6E2A8D;
+    border: 1px solid #0c77ae;
+    background: #0c77ae;
 }
 .ui-state-highlight a,
 .ui-widget-content .ui-state-highlight a,

@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="OnlineBookings.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="SeeChange.Global" Language="C#" %>

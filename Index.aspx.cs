@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace OnlineBookings
+namespace SeeChange
 {
-    public partial class ReserveAppointment : System.Web.UI.Page
+    public partial class Introduction : System.Web.UI.Page
 
     {
         public bool FirstClinicLoad { get; set; }
@@ -32,5 +32,6 @@ namespace OnlineBookings
         {
            
         }
+
     }
 }

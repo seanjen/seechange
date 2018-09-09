@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="OnlineBookings.ReserveAppointment" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="SeeChange.Introduction" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
     <script>
         
         $(function () {
-            $('#datepicker').dobpicker({
+            $('#dobpicker').datepicker({
                 dateFormat: 'dd-mm-yy',
                 changeMonth: true,
                 changeYear: true,
@@ -14,8 +14,13 @@
 
         $(function () {
             $('#datepicker').datepicker({
-                dateFormat: 'dd-mm-yy'
-            }).val();
+                dateFormat: 'd M yy',
+                todayHighlight: true
+            });
+            $("#datepicker").change(function () {
+                var date = $(this).datepicker().val();
+                $("#selecteddate").text(date);
+            });
         });
 
         $(function () {
@@ -31,22 +36,17 @@
             });
         });
 
-        $(function () {
-            $("#accordion").accordion();
-        });
-
     </script>
 
-    <div class="online-booking">
+    <div class="see-change">
 
     <div class="content">
              
     <ol id="stepbar" class="clearfix">
-        <!--<li class="passed">Heading</li>-->
-        <li class="selected">1. Introduce Yourself</li>
-        <li>2. Your Priorities</li>
-        <li>3. Town Information</li>
-        <li>4. Location</li>
+        <li class="selected">1. Create Your Profile</li>
+        <li>2. Town Information</li>
+        <li>3. Relocation Priorities</li>
+        <li>4. Find my New Home</li>
     </ol>
 
     </div>
@@ -57,55 +57,63 @@
 
     </div>
 
-        
-    <div class="content">
 
-           
+    <div class="content">
+    
        <div id="firstPanel">
           <div class="reserveBox">
-             <label for="dob">Date of Birth</label>
-             <input type="text" name="dob" id="dobpicker" />
+             <label for="postcode">Your Current Postcode</label>
+             <input type="text" name="postcode" id="postcode" placeholder="Postcode" />
           </div>
        </div>
 
        <div id="secondPanel">
           <div class="reserveBox">
-             <br />
-             <input type="checkbox" name="partner" value="Partner" />&nbsp;Tick box if you have a partner
+             <label for="live_with_partner">
+                 <br />
+                 I have a partner who I live with &nbsp;&nbsp;
+                 <input type="radio" value="Y" name="lives_with_partner" id="lives_partner_yes" />&nbsp;                
+                 Yes &nbsp;
+                 <input type="radio" value="N" name="lives_with_partner" id="lives_partner_no" />&nbsp;
+                 No
+             </label>
           </div>
        </div>
 
     </div>
 
+
     <div class="content">
 
-       <div id="firstPanel">
+        <div id="firstPanel">
           <div class="reserveBox">
-             <label for="postcode">Enter Postcode</label>
-             <input type="text" name="postcode" id="postcode" placeholder="Postcode" />
+             <label for="enterdob">Your Date of Birth</label>
+             <input type="text" name="dobpicker" id="dobpicker" />
           </div>
        </div>
 
         <div id="secondPanel">
+            
            <div class="reserveBox">
-              <br />
-              <input type="checkbox" name="children" value="Children" />&nbsp;Tick box if you have Children
-            </div>
+             <label for="have_children">
+                 <br />
+                 I have children who live with me &nbsp;&nbsp;
+                 <input type="radio" value="Y" name="has_children" id="has_children_yes" />&nbsp;                
+                 Yes &nbsp;
+                 <input type="radio" value="N" name="has_children" id="has_children_no" />&nbsp;
+                 No
+             </label>
+          </div>
+
         </div>
           
         </div>
 
-        <div class="content">
-
-            <br />
-            <div class="reserveBox">
-                <a href="Priorities.aspx">
-                <asp:Button ID="FindButton" type="button" runat="server" text="Select Priorities" BackColor="#6E2A8D" Font-Bold="True" Font-Size="12pt" ForeColor="#FFFFFF" Height="30px" Width="150px" />
-                </a>
-            </div>
-
-        </div>
-
+     <div class="reserveBox">
+       <br /><br />
+       <a href="TownInfo.aspx" class="btn btn-alternate btn-lg">Continue >></a>
+     </div>
+    
         <br />
         <hr />
         <br />

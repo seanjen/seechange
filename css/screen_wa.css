@@ -90,15 +90,15 @@ fieldset.withborder legend {
 		border: 0 none; }
 
 	.header .site-search, .header .site-navigation, .header .logoend { 
-		 float: right;
+		float: right;
 		display: block; }
 		
 	.header .logo, .header .header-cta, .header .site-search a, .header .site-search input, .header-cta a.book-now, .header-cta div.phone-number { 
-		 float: left;
+		float: left;
 		display: inline; }
 	
 	.header-cta { 
-		 margin-left: 64px; }
+		margin-left: 64px; }
 
 	.header .header-cta .button {
 		background: #95D04B;
@@ -201,34 +201,48 @@ fieldset.withborder legend {
 		float: right; }
 
 
-    /* Online-Booking
+    /* See-Change
     ================================================== */
 
-    .online-booking {
+    .see-change {
         background: #FFFFFF;
         padding: 0;
         font-size: 0.90em;
         line-height: 1.5;
     }
 
-    .online-booking .content p { 
+    .see-change .content p { 
         margin: .5em .5em .5em .5em; }
 
-        .online-booking .content h1 {
-            color: #347834;
-            font-size: x-large;
-            margin: .5em .5em .5em .2em;
-        }
+    .see-change .content h1 {
+        color: #347834;
+        font-size: x-large;
+        margin: .5em .5em .5em .2em;
+     }
 
-    .online-booking .content h2 { 
-        color:#31708f;
-        margin: .5em .5em .5em .2em; }
+    .see-change .content h2 {
+        color: #f4facc;
+        font-size: large;
+        margin: .5em .5em .5em .2em;
+    }
 
-    .online-booking .content u {
-        color: #31708f;
+    .see-change .content h3 {
+        color: #68a068;
+        font-size: medium;
+        margin: .5em .5em .5em .2em;
+    }
+
+    .see-change .content u {
+        color: #f4facc;
         text-decoration: none;
         font-size: x-large;
         margin: .5em 5em .5em .2em;
+        font-weight: bold;
+     }
+
+    .see-change .content i {
+        color: #4d9cb2;
+        font-size: small;
         font-weight: bold;
     }
 
@@ -245,7 +259,7 @@ fieldset.withborder legend {
     .content:after {
         clear: both;
     }
-    .online-booking .col {
+    .see-change .col {
         margin: 0 0 1em 0;
         position: relative;
         display: block;
@@ -257,7 +271,7 @@ div#firstPanel {
     vertical-align: top;
     float: left;
     left: auto;
-    width: 25%;
+    width: 30%;
     padding-right: 14px;
     overflow: hidden;
 }
@@ -267,7 +281,7 @@ div#secondPanel {
     vertical-align: top;
     float: left;
     left: auto;
-    width: 30%;
+    width: 40%;
     padding-right: 14px;
     overflow: hidden;
 }
@@ -277,7 +291,7 @@ div#thirdPanel {
     vertical-align: top;
     float: left;
     left: auto;
-    width: 35%;
+    width: 20%;
     overflow: hidden;
 }
 
@@ -361,8 +375,8 @@ ol#stepbar {
     }
 
     #stepbar li.selected {
-        color: #8BF78B;
-        border-bottom-color: #8BF78B;
+        color: #829882;
+        border-bottom-color: #0478b3;
     }
 
     #stepbar:after {
@@ -370,9 +384,9 @@ ol#stepbar {
     }
 
 		
-    /* Online Booking
+    /* See Change
     ================================================== */
-    .online-booking .reserveBox {
+    .see-change .reserveBox {
         border: none;
         padding: 5px 5px;
         font-size: 10pt;
@@ -381,7 +395,7 @@ ol#stepbar {
         display: inline-block !important;
     }
 
-    .online-booking input[type=text] {
+    .see-change input[type=text] {
         border: 2px solid #a1a1a1;
         padding: 5px 5px;
         font-size: 10pt;
@@ -423,29 +437,6 @@ ol#stepbar {
 
 	.login .aside h1 { 
 		margin: 0.7em 0 0.5em; }
-
-	/* Resources
-	================================================== */
-	
-	.resources .content ul li { 
-		background: url('../images/arrow-sprite.png') no-repeat 3px -465px;
-		font-weight: normal;
-		padding-left: 20px; }
-
-	.resources .content h3 { 
-		padding-left: 25px; }
-
-	.resources .content h3.annual-reports { 
-		background: url('../images/BSWA-sprite.png') no-repeat -40px -980px; }
-
-	.resources .content h3.financial-reports { 
-		background: url('../images/BSWA-sprite.png') no-repeat -37px -1030px; }
-
-	.resources .content h3.annual-statistics { 
-		background: url('../images/BSWA-sprite.png') no-repeat -37px -1087px; }
-
-	.resources .content h3.other-documents { 
-		background: url('../images/BSWA-sprite.png') no-repeat -41px -1145px; }
 
 	/* Tabs
 	================================================== */
@@ -522,7 +513,6 @@ ol#stepbar {
     {
         text-decoration: none;
     }
-
 
 
 	.footer { 
@@ -703,40 +693,6 @@ ol#stepbar {
 	.main.home .home-story h2, .main.home .find-out-how h2 { 
 		padding-top: 15px; }
 
-
-	/* Flexslider
-	================================================== */
-
-	.flex-direction-nav { 
-		display: block; }
-
-	.slideshow { 
-		background: url('../images/header-bg.gif') repeat; }
-
-	.flexslider ul { 
-		padding: 0; }
-
-	.flexslider ul li { 
-		position: relative;
-		list-style: none; }
-
-	.flexslider ul li img { 
-		width: 640px !important;
-		float: right; }
-
-	.flex-caption { 
-		width: 320px;
-		padding-right: 20px;
-		float: left; }
-
-	.flexslider ul h1 { 
-		margin: 0; }
-
-	.flex-caption h2 { 
-		margin: 1em 0 0; }
-
-	.flex-caption p { 
-		margin: .25em 0 1em 0; }
 
 	/* Target IE
 	================================================== */
@@ -919,19 +875,7 @@ ol#stepbar {
 		.playing .video-listing .col.active h3 { 
 			background: #E5F2F6 url('../images/BSWA-sprite.png') no-repeat 105px -695px;
 			padding-right: 120px; }
-		
 
-		/* Slideshow
-		================================================== */
-
-		.flexslider ul li img { 
-			width: 485px !important;
-			float: right; }
-
-		.flex-caption { 
-			width: 235px;
-			padding-right: 10px;
-			float: left; }
 
 		/* Target Internet Explorer
 		================================================== */
@@ -962,8 +906,6 @@ ol#stepbar {
     .header .header-cta .phone-number { 
 	    font-size: 0.9375em;
 	    line-height: 1.1em; }
-
-
 
     .footer .meta, .flex-caption p {
 	    font-size: 0.813em; }
@@ -1186,13 +1128,14 @@ ol#stepbar {
 		margin: 0;
 		display: block;
 		padding: 0; }
-	
-	a.accordion-trigger { 
-		border-top: 1px solid #FFF;
-		border-bottom: 1px solid #FFF;
-		background: #675c53;
-		color: #675C53;
-		padding: 15px 20px; }
+        
+        a.accordion-trigger {
+            border-top: 1px solid #FFF;
+            border-bottom: 1px solid #FFF;
+            background: #675c53;
+            color: #675C53;
+            padding: 15px 20px;
+        }
 
 	.panes a.accordion-trigger.selected { 
 		background: #E5F2F6 url('../images/arrow-sprite.png') no-repeat 94% -275px;
@@ -1203,27 +1146,6 @@ ol#stepbar {
 	.panes a.accordion-trigger {
 		background: url('../images/arrow-sprite.png') no-repeat 94% -149px, url('../images/header-bg.gif') repeat; }
 
-		
-
-	/* Login
-	================================================== */
-	
-	.login .box.blue { 
-		padding: 20px 20px 0;
-		margin: 30px 0; }
-
-	.login .box.blue .col { 
-		float: left;
-		width: 50%; }
-
-	.login .aside { 
-		display: none; }
-
-	/* Resources
-	================================================== */
-	
-	.resources .content ul { 
-		margin-bottom: 30px; }
 
 	/* Footer 
 	================================================== */
@@ -1293,39 +1215,6 @@ ol#stepbar {
 		background: none; }
 
 }
-
-    /* FlexSlider Necessary Styles
-    *********************************/ 
-
-    .flexslider, .flexslider .slides {
-	    margin: 0;
-	    padding: 0; }
-
-    .flexslider .slides > li { 
-	    display: none;
-	    -webkit-backface-visibility: hidden;
-	    list-style: none; } /* Hide the slides before the JS is loaded. Avoids image jumping */
-
-    .flexslider .slides img { 
-	    width: 100%;
-	    display: block; }
-	
-    .flex-pauseplay span {
-	    text-transform: capitalize; }
-
-    .slides:after {
-	    content: ".";
-	    display: block;
-	    clear: both;
-	    visibility: hidden;
-	    line-height: 0;
-	    height: 0; }
-
-    html[xmlns] .slides {
-	    display: block; }
-
-    * html .slides {
-	    height: 1%; }
 
     /* Target Firefox
     *********************************/ 

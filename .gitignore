@@ -1,0 +1,35 @@
+*.suo
+*.swp
+*.bak
+*.user
+obj/
+[bB]in/
+*.vbw
+*.CNT
+out.txt
+.*.swp
+*.exp
+*.lib
+*.pdb
+TestResults
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Microsoft Fakes
+*/*/FakesAssemblies/*
+FakesAssemblies/
+#Tests.Toms.Net.Common/Tests.Toms.Net.Common.Business/FakesAssemblies/*
+*.DotfuscatorMap.xml
+Toms.Net.sln.GhostDoc.xml
+
+# Visual Studio 2017 cache/options directory
+.vs/
+
+#Rider IDE
+.idea
+*.iml

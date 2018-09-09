@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OnlineBookings {
+namespace SeeChange {
     
     
     public partial class Site_Mobile {
