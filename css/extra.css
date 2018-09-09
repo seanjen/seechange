@@ -1,0 +1,4 @@
+.footer .form {text-align:left;}
+.footer .form a{margin-top:10px;}
+.footer .form .sending{margin:15px 0 0 10px;}
+.footer .form .sending .icon{background:url('https://cdnjs.cloudflare.com/ajax/libs/extjs/3.4.1-1/resources/images/default/shared/large-loading.gif') no-repeat;background-size:100%;width:24px;height:24px;display:inline-block;margin-right:6px;}

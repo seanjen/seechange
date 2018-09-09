@@ -1,0 +1,2656 @@
+.panel
+{
+    padding: 10px;
+}
+.reveal-modal.panel
+{
+    padding: 20px;
+}
+
+select, input[type="file"], input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"]
+{
+    margin: 6px 0px 6px 0px;
+}
+
+.loginerror
+{
+    color: Red;
+}
+
+.nobookingsallowedmsg 
+{
+    width:100%;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: #dddddd;
+    text-align: center;
+    color: #333333;
+}
+
+.timeslotbookedlabel, .timeslotavaillabel
+{
+    white-space: nowrap;
+    padding-left: 2px;
+}
+
+.featureHeader
+{
+    width: 100%;
+    height: 105px;
+    display: none;
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header
+{
+    margin-bottom: 8px;
+}
+.ui-timepicker-div dl
+{
+    text-align: left;
+}
+.ui-timepicker-div dl dt
+{
+    height: 25px;
+    margin-bottom: -25px;
+}
+.ui-timepicker-div dl dd
+{
+    margin: 0 10px 10px 65px;
+}
+.ui-timepicker-div td
+{
+    font-size: 90%;
+}
+.ui-tpicker-grid-label
+{
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-timepicker-rtl
+{
+    direction: rtl;
+}
+.ui-timepicker-rtl dl
+{
+    text-align: right;
+}
+.ui-timepicker-rtl dl dd
+{
+    margin: 0 65px 10px 10px;
+}
+
+/* Pricing Tables ---------------------- */
+.pricing-table-small
+{
+    border: solid 1px #dddddd;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.pricing-table-small *
+{
+    list-style: none;
+    line-height: 1;
+}
+.pricing-table-small .pricing-table-title
+{
+    background-color: #dddddd;
+    padding: 5px 10px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 12px;
+}
+.pricing-table-small .price
+{
+    background-color: #eeeeee;
+    padding: 5px 10px;
+    text-align: center;
+    color: #333333;
+    font-weight: normal;
+    font-size: 10px;
+}
+.pricing-table-small .description
+{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: #777777;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1.1;
+    border-bottom: dotted 1px #dddddd;
+}
+.pricing-table-small .bullet-item
+{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    color: #333333;
+    font-size: 1em;
+    font-weight: normal;
+    border-bottom: dotted 1px #dddddd;
+}
+.pricing-table-small .cta-button
+{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Pricing Tables ---------------------- */
+.pricing-table-tiny
+{
+    border: solid 1px #dddddd;
+    margin-left: 0;
+    margin-bottom: 4px;
+}
+.pricing-table-tiny *
+{
+    list-style: none;
+    line-height: 1;
+}
+.pricing-table-tiny .pricing-table-title
+{
+    background-color: #dddddd;
+    padding: 2px 4px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+    font-size: 11px;
+}
+.pricing-table-tiny .price
+{
+    background-color: #eeeeee;
+    padding: 2px 4px;
+    text-align: center;
+    color: #333333;
+    font-weight: normal;
+    font-size: 10px;
+}
+.pricing-table-tiny .description
+{
+    background-color: white;
+    padding: 2px;
+    text-align: center;
+    color: #777777;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 1;
+    border-bottom: dotted 1px #dddddd;
+}
+.pricing-table-tiny .bullet-item
+{
+    background-color: white;
+    padding: 2px;
+    text-align: center;
+    color: #333333;
+    font-size: 0.87em;
+    font-weight: normal;
+    border-bottom: dotted 1px #dddddd;
+}
+.pricing-table-tiny .cta-button
+{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 4px;
+}
+
+
+
+select.oversize, input[type="text"].oversize, input[type="password"].oversize, input[type="date"].oversize, input[type="datetime"].oversize, input[type="email"].oversize, input[type="number"].oversize, input[type="search"].oversize, input[type="tel"].oversize, input[type="time"].oversize, input[type="url"].oversize, textarea.oversize
+{
+}
+select:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus
+{
+}
+input[type="text"][disabled], input[type="password"][disabled], input[type="date"][disabled], input[type="datetime"][disabled], input[type="email"][disabled], input[type="number"][disabled], input[type="search"][disabled], input[type="tel"][disabled], input[type="time"][disabled], input[type="url"][disabled], textarea[disabled]
+{
+    background-color: #F0F0F0;
+}
+
+.reveal-modal .close-reveal-modal
+{
+    /* top: 2px; */
+    font-size: 1.2rem;
+}
+
+
+select
+{
+}
+
+.placeholder
+{
+    color: #aaa !important;
+}
+::-webkit-input-placeholder
+{
+    color: #aaa !important;
+}
+:-moz-placeholder
+{
+    color: #aaa !important;
+}
+:-ms-input-placeholder
+{
+    color: #aaa !important;
+}
+
+/* Errors */
+.error select, select.error
+{
+    border-color: #c60f13;
+    border-width: 1px;
+    background-color: rgba(198, 15, 19, 0.1);
+}
+
+.error select, select.error
+{
+}
+
+.error small, small.error
+{
+    display: block;
+    padding: 6px 4px;
+    margin-top: -13px;
+    margin-bottom: 12px;
+    background: #c60f13;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    -moz-border-radius-bottomleft: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.error select:focus, select.error:focus
+{
+    background: #fafafa;
+    border-color: #b3b3b3;
+}
+
+a.prefix.button, a.postfix.button
+{
+    margin: 6px 0px 6px 0px;
+}
+
+
+/* Tabs ---------------------- */
+.tabs.small
+{
+    list-style: none;
+    border-bottom: solid 1px #c5c5c5;
+    display: block;
+    height: 25px;
+    padding: 0;
+    margin-top: 15px;
+}
+.tabs.small dt, .tabs.small li.section-title
+{
+    color: #b3b3b3;
+    cursor: default;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    padding-right: 3px;
+    padding-left: 10px;
+    font-weight: normal;
+    width: auto;
+    text-transform: uppercase;
+}
+.tabs.small dt:first-child, .tabs.small li.section-title:first-child
+{
+    padding: 0;
+    padding-right: 3px;
+}
+.tabs.small dd a, .tabs.small li a
+{
+    color: #6f6f6f;
+    display: block;
+    font-size: 1em;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 12.8px;
+}
+.tabs.small dd.active, .tabs.small li.active
+{
+    border-top: 3px solid #2ba6cb;
+    margin-top: -3px;
+}
+.tabs.small.vertical dd, .tabs.small.vertical li
+{
+    border-left: 3px solid #cccccc;
+}
+.tabs.small.vertical dd.active, .tabs.small.vertical li.active
+{
+    margin-top: 0;
+    border-top: 1px solid #4d4d4d;
+    border-left: 4px solid #1a1a1a;
+}
+.tabs.small.pill
+{
+    border-bottom: none;
+    margin-bottom: 15px;
+}
+.tabs.small.pill dd, .tabs.small.pill li
+{
+    margin-right: 15px;
+}
+
+.tabs.tiny ul.tabs-content
+{
+    display: block;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.tabs.tiny ul.tabs-content.contained > li
+{
+    border: solid 0 #e6e6e6;
+    border-width: 0 1px 1px 1px;
+    padding: 10px;
+}
+
+/* Tabs ---------------------- */
+.tabs.tiny
+{
+    list-style: none;
+    border-bottom: solid 1px #e6e6e6;
+    display: block;
+    height: 20px;
+    padding: 0;
+    margin-top: 10px;
+}
+.tabs.tiny dt, .tabs.tiny li.section-title
+{
+    color: #b3b3b3;
+    cursor: default;
+    display: block;
+    float: left;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0;
+    padding-right: 3px;
+    padding-left: 10px;
+    font-weight: normal;
+    width: auto;
+    text-transform: uppercase;
+}
+.tabs.tiny dt:first-child, .tabs.tiny li.section-title:first-child
+{
+    padding: 0;
+    padding-right: 3px;
+}
+.tabs.tiny dd a, .tabs.tiny li a
+{
+    color: #6f6f6f;
+    display: block;
+    font-size: 1em;
+    height: 20px;
+    line-height: 20px;
+    padding: 0px 12.8px;
+}
+.tabs.tiny dd.active, .tabs.tiny li.active
+{
+    border-top: 3px solid #2ba6cb;
+    margin-top: -3px;
+}
+.tabs.tiny.vertical dd, .tabs.tiny.vertical li
+{
+    border-left: 3px solid #cccccc;
+}
+.tabs.tiny.vertical dd.active, .tabs.tiny.vertical li.active
+{
+    margin-top: 0;
+    border-top: 1px solid #4d4d4d;
+    border-left: 4px solid #1a1a1a;
+}
+.tabs.tiny.pill
+{
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+.tabs.tiny.pill dd, .tabs.tiny.pill li
+{
+    margin-right: 10px;
+}
+
+.tabs.tiny ul.tabs-content
+{
+    display: block;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.tabs.tiny ul.tabs-content.contained > li
+{
+    border: solid 0 #e6e6e6;
+    border-width: 0 1px 1px 1px;
+    padding: 10px;
+}
+
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+fieldset legend
+{
+    position: absolute;
+    top: -0.5em;
+    left: 1.000em;
+    font-style: normal;
+}
+
+
+.column, .columns
+{
+    padding: 0px 6px 0px 6px;
+}
+
+
+.systemCnt
+{
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin: 6px 0px 6px 6px;
+}
+
+label.inline
+{
+    margin: 6px 0px 6px 6px;
+}
+@media only screen and (max-width:767px)
+{
+    label.inline
+    {
+        margin: 12px 6px 0 0;
+        line-height: inherit;
+    }
+}
+
+.row.review label.inline
+{
+    line-height: 22px;
+}
+
+
+.row.review .columns
+{
+    line-height: 22px;
+}
+
+.row.review .columns label.inline
+{
+    margin: 0px !important;
+}
+
+.reviewquestion
+{
+    font-weight: 600;
+    color: #4d4d4d;
+    cursor: default;
+}
+
+.systemListHeader
+{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.1em;
+}
+
+.systemListHeader .small
+{
+    font-size: smaller;
+    display: block;
+    margin: 0px;
+}
+
+.info
+{
+    vertical-align: middle;
+    width: 30px;
+    height: 29px;
+    margin: 1px 5px 1px 1px;
+    display: inline-block;
+    background: transparent url('images/gobookings.png') no-repeat -106px -168px;
+}
+
+.listingDesc
+{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 1.00em;
+}
+
+.listingTitle
+{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.12em;
+}
+
+.isavailImg
+{
+    vertical-align: middle;
+    width: 35px;
+    height: 29px;
+    margin: 1px 5px 1px 1px;
+    display: none;
+    background: transparent url('images/gobookings.png') no-repeat -135px -53px;
+}
+
+.availImg
+{
+    vertical-align: middle;
+    width: 30px;
+    height: 29px;
+    margin: 1px 5px 1px 1px;
+    display: none;
+    background: transparent url('images/gobookings.png') no-repeat -51px -49px;
+}
+
+.unavailImg
+{
+    vertical-align: middle;
+    width: 30px;
+    height: 29px;
+    margin: 1px 5px 1px 1px;
+    display: none;
+    background: #FFF;
+}
+
+.directoryServiceListing
+{
+    margin: 0px 0px 0px 20px;
+}
+
+
+.googleIcon
+{
+    /* float: left; */
+    display: inline-block;
+    margin: 1px 5px 1px 1px;
+    padding: 1px;
+    vertical-align: top;
+}
+
+.jqInvalid
+{
+    background: #ffdddd !important;
+    border: 1px solid red !important;
+    margin: 0px !important;
+    font-family: Arial; /* font-size: 0.92em !important; */
+}
+
+label.jqInvalid
+{
+    margin-left: 7px !important;
+    background: transparent !important;
+    border: none !important;
+    color: #FF0000 !important;
+    display: inline-block;
+    font-family: Arial; /* font-weight: normal !important;     white-space: nowrap !important; */
+    font-size: 1.1em !important;
+}
+
+#gblargecalendar
+{
+    height: auto !important;
+}
+
+#gblargecalendar table
+{
+    margin: 2px !important;
+    padding: 2px !important;
+    border: none;
+    background-color: transparent;
+    height: auto !important;
+    font-size: 1.45em !important;
+    font-weight: normal;
+}
+
+.weekselect
+{
+    display: inline-block;
+    font-size: 0.79em;
+}
+
+#gblargecalendar table tbody tr td
+{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+    text-align: center;
+    height: auto;
+}
+
+#gblargecalendar table tbody tr th
+{
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+    text-align: center;
+    height: auto;
+}
+
+
+.gmap
+{
+    position: relative;
+    width: auto;
+    height: 350px;
+    min-height: 200px;
+    top: 0px;
+    left: 0px;
+    margin: 5px;
+}
+
+
+.infoWindow
+{
+    font-size: 11px !important;
+    padding: 0px;
+    margin: 1px;
+    line-height: 1.5;
+}
+
+.gmap div
+{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.directoryTimeList
+{
+    vertical-align: top;
+    display: inline-block;
+    width: 12.5%;
+    min-width: 45px; /*margin: 1px 2px 2px 1px;          the below allows the full sizing of the time listing */
+    margin: 0;
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.listDays1
+{
+    width: 95%;
+}
+.listDays2
+{
+    width: 47%;
+}
+.listDays3
+{
+    width: 32%;
+}
+.listDays4
+{
+    width: 22.5%;
+}
+.listDays5
+{
+    width: 18%;
+}
+.listDays6
+{
+    width: 15%;
+}
+.listDays7
+{
+    width: 12.5%;
+}
+
+.directoryTimeListing .alt
+{
+    background-color: #E9FFEE;
+}
+
+.directoryTimeMoreListing
+{
+    text-align: right;
+    width: auto;
+    margin: 3px 0px 10px 0px;
+}
+
+.BookingMore
+{
+    text-align: right;
+}
+
+.directoryTimeListing .timeListName
+{
+    font-weight: bolder;
+}
+
+.directoryTimeList a, .directoryTimeList a:link, .directoryTimeList a:visited
+{
+    color: #696969;
+    text-decoration: none;
+    line-height: 150% !important;
+    width: 100%;
+    display: inline-block;
+}
+
+.directoryTimeList A:hover
+{
+    color: #696969;
+    text-decoration: underline;
+}
+
+.stackContainer
+{
+    margin: 0 -5px 5px -5px;
+    padding: 5px;
+}
+/* .stackContainer:nth-child(2n+1) { background:rgba( 0, 0, 0, 0.1 ); } */
+.stackHeader
+{
+    display: inline-block;
+    padding-top: 5px;
+    padding-right: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: right;
+}
+.stackTimes
+{
+    display: inline-block;
+}
+
+#progressBackgroundFilter
+{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: transparent url('images/transparent.png') repeat 0 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    z-index: 9998 !important;
+}
+#processMessage
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -75px;
+    width: 150px;
+    height: 120px;
+    padding: 20px;
+    z-index: 9999 !important;
+    background-color: #fff;
+    border: solid 1px #000;
+    text-align: center;
+}
+
+#processMessage.processMessageWait
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -175px;
+    width: 350px;
+    height: 220px;
+    padding: 20px;
+    z-index: 9999 !important;
+    background-color: #fff;
+    border: solid 1px #000;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.timeSlotUnavailable
+{
+    background-color: rgb(255, 226, 166);
+    cursor: default;
+}
+
+.timeSlotTaken
+{
+    background-color: rgb(255, 226, 166);
+}
+
+.descriptionLabel
+{
+    font-size: 0.870em;
+    line-height: 1.0em;
+}
+
+.serviceGroupRow
+{
+    display: inline-block;
+    width: 100%;
+    margin: 2px 0px 2px 0px;
+    padding: 0px;
+    cursor: default;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.serviceRow
+{
+    display: inline-block;
+    width: 100%;
+    margin: 2px 0px 2px 0px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.serviceRow.alt
+{
+    background-color: #F8F8F8;
+}
+
+
+.serviceRow:hover, .serviceRow.alt:hover
+{
+    background-color: #E8E5E5;
+}
+
+.TimeslotDetailsListing h3, .ServiceDetailsListing h3
+{
+    font-weight: bolder;
+    font-size: 1.3em;
+    margin: 0px 0px 2px 0px;
+}
+
+
+.TimeslotDetailsListing img, .ServiceDetailsListing .serviceImg
+{
+}
+
+.TimeslotDetailsListing .systemName, .ServiceDetailsListing .serviceName
+{
+    font-weight: bolder;
+    padding: 2px 0px 2px 0px;
+}
+.ServiceDetailsListing .serviceDescription
+{
+    font-size: smaller;
+    padding: 2px 0px 2px 0px;
+}
+.ServiceDetailsListing .servicePrice
+{
+    padding: 2px 0px 2px 0px;
+}
+.ServiceDetailsListing .serviceDuration
+{
+    padding: 2px 0px 2px 0px;
+}
+
+
+.expando-div
+{
+    font-size: 8pt;
+    margin: 5px 1px 5px 0px;
+    padding: 2px;
+    display: inline-block;
+    background-color: transparent;
+    z-index: 999;
+}
+
+.BookHoldAlert
+{
+    padding: 5px; /* margin: 0px 5px 10px 5px; */
+    margin: -5px;
+    border: 2px groove;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: Black;
+    text-align: center;
+    background-color: White;
+}
+
+.PreviousBookingListing
+{
+    padding: 5px; /* margin: 0px 5px 10px 5px; */
+    margin: -5px;
+    border: 2px groove;
+    background-color: White;
+}
+.PreviousBookingListing h3
+{
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+
+
+.creditcardList
+{
+    display: inline-block;
+}
+
+.creditcards
+{
+    vertical-align: middle;
+    width: 45px;
+    height: 30px;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+#paydetailstext
+{
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+
+.creditcards.paypal
+{
+    background: transparent url('images/gobookings.png') no-repeat -67px -239px;
+}
+
+.creditcards.visa
+{
+    background: transparent url('images/gobookings.png') no-repeat -11px -238px;
+}
+
+.creditcards.dinersc
+{
+    background: transparent url('images/gobookings.png') no-repeat -11px -203px;
+}
+
+.creditcards.amex
+{
+    background: transparent url('images/gobookings.png') no-repeat -11px -168px;
+}
+
+.creditcards.discoverc
+{
+    background: transparent url('images/gobookings.png') no-repeat -11px -132px;
+}
+
+.creditcards.mc
+{
+    background: transparent url('images/gobookings.png') no-repeat -11px -96px;
+}
+
+.creditcards.selected
+{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.nameLabel
+{
+    margin: 6px 9px 6px 0px;
+    display: block;
+}
+
+.LoginPanel input[type='text'], .LoginPanel input[type='password'], .LoginPanel input[type='datetime']
+{
+    height: 22px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+.LoginPanel.panel
+{
+    padding: 10px 20px 10px 10px;
+}
+
+.LoginPanel label.inline
+{
+    line-height: 22px;
+}
+
+.ui-datepicker
+{
+    z-index: 4 !important;
+}
+.AdvSearchPanel input[type='text'], .AdvSearchPanel input[type='select'], .AdvSearchPanel input[type='date'], .AdvSearchPanel input[type='checkbox'], .AdvSearchPanel select
+{
+    /*height: 22px; */
+    padding: 0px 2px 0px 2px; /*margin-left: 3px;*/
+    font-size: 1em;
+}
+
+.AdvSearchPanel.panel
+{
+    margin: 5px 0px;
+    padding: 10px 20px 10px 10px;
+}
+
+.AdvSearchPanel label.inline
+{
+    /*line-height: 22px;*/
+    margin-right: 10px;
+}
+
+.AdvSearchPanel input[type='checkbox']
+{
+    margin-top: 6px;
+}
+
+
+.AdvSearchPanel input[type='text'], .AdvSearchPanel input[type='password'], .AdvSearchPanel input[type='date'], .AdvSearchPanel input[type='checkbox'], .AdvSearchPanel select
+{
+    display: inline-block;
+}
+
+.selectedSystem
+{
+    background-color: #ECECEC; /* #CFFEDA; */
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.logoTag
+{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.leadImage
+{
+    float: left;
+    margin: 5px;
+}
+
+.sysmsg
+{
+    /* background-color: #FFF333; */
+}
+
+.grouplistImage
+{
+    float: left;
+    max-width: 50%;
+    margin: 5px;
+}
+
+.grouplistitem
+{
+    padding: 5px 0px !important;
+}
+
+
+.grouplistitem.active
+{
+    font-weight: bold; /* background-color: #ECECEC; */
+}
+
+
+
+.questionField
+{
+    /* display: inline-block; */
+    margin: 1px 3px 1px 3px;
+}
+
+.BookingDetails .bookingTime
+{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.BookingDetails select
+{
+    width: auto;
+}
+@media only screen and (max-width:767px)
+{
+    .BookingDetails select
+    {
+        width: 100% !important;
+    }
+}
+
+.QuestionList
+{
+    display: inline-block;
+    margin: 1px 3px 1px 3px;
+}
+
+.requiredLabel
+{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+ul.gbbreadcrumb
+{
+    padding: 4px 10px 3px 10px;
+    margin: 9px 9px 0px 9px;
+}
+
+ul.gbbreadcrumb li a, ul.gbbreadcrumb li span
+{
+    font-size: 0.90em;
+}
+
+
+DIV.smallLink
+{
+    padding-left: 15px;
+}
+A.smallLink
+{
+    font-size: 0.80em;
+}
+
+
+
+h1
+{
+}
+h2
+{
+}
+h3
+{
+}
+
+
+.syslist
+{
+    background: #FFF url('') repeat-x top left;
+    list-style: none;
+    margin: 0 0 2.6em;
+    padding: 2px 0 0 0;
+}
+
+.syslist li
+{
+    background: #FFF url('') repeat-x bottom left;
+    display: block;
+    padding: 10px 0;
+}
+
+.messageLabel
+{
+    font-size: 0.98em;
+    color: red;
+}
+
+.nameLabel
+{
+    font-size: 2.2em;
+    font-weight: bolder;
+}
+
+.addressLabel
+{
+    font-size: 0.98em;
+}
+
+.nav-bar
+{
+    height: 30px;
+    margin-top: 0px;
+    margin-right: 6px;
+}
+
+.nav-bar > li
+{
+    line-height: 28px;
+}
+
+
+.nav-bar > li.rightmenu
+{
+    float: right;
+    border-left: 0px;
+    border-right: 0px;
+    box-shadow: none;
+    color: #e6e6e6;
+    font-size: 0.90em;
+    padding-right: 5px;
+    border-bottom-style: none;
+    max-height: 28px;
+}
+
+/* Tabs ---------------------- */
+.tabs
+{
+    list-style: none;
+    border-bottom: solid 1px #e6e6e6;
+    display: block;
+    height: 40px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.tabs.contained
+{
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.tabs dt, .tabs li.section-title
+{
+    color: #b3b3b3;
+    cursor: default;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    padding-right: 9px;
+    padding-left: 20px;
+    font-weight: normal;
+    width: auto;
+    text-transform: uppercase;
+}
+.tabs dt:first-child, .tabs li.section-title:first-child
+{
+    padding: 0;
+    padding-right: 9px;
+}
+.tabs dd, .tabs li
+{
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.tabs dd a, .tabs li a
+{
+    color: #6f6f6f;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 23.8px;
+}
+.tabs dd a:focus, .tabs li a:focus
+{
+    font-weight: bold;
+    color: #2ba6cb;
+}
+.tabs dd.active, .tabs li.active
+{
+    border-top: 3px solid #2ba6cb;
+    margin-top: -3px;
+}
+.tabs dd.active a, .tabs li.active a
+{
+    cursor: default;
+    color: #3c3c3c;
+    background: #fff;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    font-weight: bold;
+}
+.tabs dd:first-child, .tabs li:first-child
+{
+    margin-left: 0;
+}
+.tabs.vertical
+{
+    height: auto;
+    border-bottom: 1px solid #e6e6e6;
+}
+.tabs.vertical dt, .tabs.vertical dd, .tabs.vertical li
+{
+    float: none;
+    height: auto;
+}
+.tabs.vertical dd, .tabs.vertical li
+{
+    border-left: 3px solid #cccccc;
+}
+.tabs.vertical dd a, .tabs.vertical li a
+{
+    background: #f2f2f2;
+    border: none;
+    border: 1px solid #e6e6e6;
+    border-width: 1px 1px 0 0;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: auto;
+    line-height: 1;
+    padding: 15px 20px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+.tabs.vertical dd.active, .tabs.vertical li.active
+{
+    margin-top: 0;
+    border-top: 1px solid #4d4d4d;
+    border-left: 4px solid #1a1a1a;
+}
+.tabs.vertical dd.active a, .tabs.vertical li.active a
+{
+    background: #4d4d4d;
+    border: none;
+    color: #fff;
+    height: auto;
+    margin: 0;
+    position: static;
+    top: 0;
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow: 0 0 0;
+    box-shadow: 0 0 0;
+}
+.tabs.vertical dd:first-child a.active, .tabs.vertical li:first-child a.active
+{
+    margin: 0;
+}
+.tabs.pill
+{
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+.tabs.pill dd, .tabs.pill li
+{
+    margin-right: 10px;
+}
+.tabs.pill dd:last-child, .tabs.pill li:last-child
+{
+    margin-right: 0;
+}
+.tabs.pill dd a, .tabs.pill li a
+{
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -ms-border-radius: 1000px;
+    -o-border-radius: 1000px;
+    border-radius: 1000px;
+    background: #e6e6e6;
+    height: 26px;
+    line-height: 26px;
+    color: #666;
+}
+.tabs.pill dd.active, .tabs.pill li.active
+{
+    border: none;
+    margin-top: 0;
+}
+.tabs.pill dd.active a, .tabs.pill li.active a
+{
+    background-color: #2ba6cb;
+    border: none;
+    color: #fff;
+}
+.tabs.pill.contained
+{
+    border-bottom: solid 1px #eee;
+    margin-bottom: 0;
+}
+.tabs.pill.two-up dd, .tabs.pill.two-up li, .tabs.pill.three-up dd, .tabs.pill.three-up li, .tabs.pill.four-up dd, .tabs.pill.four-up li, .tabs.pill.five-up dd, .tabs.pill.five-up li
+{
+    margin-right: 0;
+}
+.tabs.two-up dt a, .tabs.two-up dd a, .tabs.two-up li a, .tabs.three-up dt a, .tabs.three-up dd a, .tabs.three-up li a, .tabs.four-up dt a, .tabs.four-up dd a, .tabs.four-up li a, .tabs.five-up dt a, .tabs.five-up dd a, .tabs.five-up li a
+{
+    padding: 0 17px;
+    text-align: center;
+    overflow: hidden;
+}
+.tabs.two-up dt, .tabs.two-up dd, .tabs.two-up li
+{
+    width: 50%;
+}
+.tabs.three-up dt, .tabs.three-up dd, .tabs.two-up li
+{
+    width: 33.33%;
+}
+.tabs.four-up dt, .tabs.four-up dd, .tabs.two-up li
+{
+    width: 25%;
+}
+.tabs.five-up dt, .tabs.five-up dd, .tabs.two-up li
+{
+    width: 20%;
+}
+
+.tabs-content
+{
+    clear: both;
+}
+
+.row.tabs
+{
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 0 !important;
+}
+
+.columns.tabs
+{
+    border-bottom: 0 !important;
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+
+
+.tabs.vertical li ul
+{
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: solid 3px #eee;
+    border-right: solid 1px #eee;
+    margin-left: -4px;
+    -webkit-box-shadow: 1px 0 0 white inset;
+    -moz-box-shadow: 1px 0 0 white inset;
+    box-shadow: 1px 0 0 white inset;
+}
+.tabs.vertical li ul li
+{
+    border: none;
+}
+.tabs.vertical li ul li a
+{
+    cursor: pointer !important;
+    font-weight: normal;
+    color: #666 !important;
+    padding: 7px 0 7px 20px;
+    background: #fff !important;
+}
+.tabs.vertical li ul li a:hover
+{
+    color: #111 !important;
+}
+.tabs.vertical li ul li.active
+{
+    border: none;
+}
+.tabs.vertical li ul li.active a
+{
+    font-weight: bold;
+    color: #222 !important;
+}
+
+.nav-bar.vertical
+{
+    height: auto;
+    margin-top: 0;
+    font-size: 0.85em;
+}
+.nav-bar.vertical > li
+{
+    float: none;
+    border-bottom: none;
+    border-right: solid 1px #333333;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.nav-bar.vertical > li.has-flyout > a:first-child:after
+{
+    top: 10px !important;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: solid 4px;
+    border-color: transparent transparent transparent #e6e6e6;
+}
+
+#sidemenu
+{
+    margin-left: -9px;
+    margin-right: -3px;
+}
+
+.scheduleItemDetail
+{
+    display: inline-block;
+}
+
+.scheduleFunctions
+{
+    padding-left: 25px;
+}
+
+.extraRows
+{
+    margin: 15px 0px 15px 0px;
+}
+
+.extraRowsTop > .button
+{
+    margin-top: 5px;
+}
+
+.legend
+{
+    margin: 15px 0px 15px 0px;
+}
+.nav-bar > li.rightmenu:hover
+{
+    background-color: inherit;
+}
+
+.nav-bar > li.rightmenu img
+{
+    padding-top: 3px;
+}
+
+.nav-bar > li.rightmenu A
+{
+    padding-right: 3px;
+    padding-left: 5px;
+}
+
+.nav-bar, .largebanner, .smallbanner
+{
+    margin: 0 -11px;
+}
+
+.hidelargebanner
+{
+    display: block;
+}
+
+.hidesmallbanner
+{
+    display: none;
+}
+
+A.leftmargin
+{
+    margin-left: 10px !important;
+}
+
+.submitrow select, .submitrow input[type="file"], .submitrow input[type="text"], .submitrow input[type="password"], .submitrow input[type="date"], .submitrow input[type="datetime"], .submitrow input[type="email"], .submitrow input[type="number"], .submitrow input[type="search"], .submitrow input[type="tel"], .submitrow input[type="time"], .submitrow input[type="url"]
+{
+    height: 32px;
+    margin: 6px 0px 6px 0px;
+}
+
+
+.searchrow select, .searchrow input[type="file"], .searchrow input[type="text"], .searchrow input[type="password"], .searchrow input[type="date"], .searchrow input[type="datetime"], .searchrow input[type="email"], .searchrow input[type="number"], .searchrow input[type="search"], .searchrow input[type="tel"], .searchrow input[type="time"], .searchrow input[type="select"]
+{
+    height: 32px;
+    margin: 6px 6px 6px 3px;
+}
+
+.confirmationmessage
+{
+    margin: 0px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: large;
+}
+
+.wrappedLabel
+{
+    line-height: normal !important;
+}
+
+.calendartimelistings
+{
+    display: none;
+}
+
+.calendartimelistings ul li
+{
+    font-size: 0.8em;
+}
+
+
+#banner-panel
+{
+    margin-top: 50px;
+    text-align: center;
+}
+#login-panel
+{
+    margin-top: 40px;
+    padding: 1.25rem;
+}
+
+#login-panel h1
+{
+    font-size: 2.75rem;
+    font-family: "Open Sans" , "Helvetica Neue" , "Helvetica" ,Helvetica,Arial,sans-serif;
+}
+
+#login-panel #login-message, #login-panel #login-message h1
+{
+    margin-bottom: 30px;
+}
+#login-panel #retrieve-message
+{
+    margin-bottom: 10px;
+}
+
+#login-panel #copy
+{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #008cba;
+    text-align: center;
+}
+#login-panel #copy h2
+{
+    font-size: 0.85em;
+    font-weight: 300;
+    font-family: "Open Sans" , "Helvetica Neue" , "Helvetica" ,Helvetica,Arial,sans-serif;
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    /* Global Misc --- */
+    .nav-bar
+    {
+        height: auto;
+    }
+    .AdvSearchPanel input[type='text'], .AdvSearchPanel input[type='select'], .AdvSearchPanel input[type='date'], .AdvSearchPanel input[type='checkbox'], .AdvSearchPanel select
+    {
+        margin-left: 0 !important;
+    }
+    .AdvSearchPanel.panel
+    {
+        padding-right: 10px;
+    }
+
+    /* foundation overrides */
+    .row .mobile-one, .row .mobile-two, .row .mobile-three, .row .mobile-four
+    {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 550px)
+{
+    .hidelargebanner
+    {
+        display: none !important;
+    }
+
+    .hidesmallbanner
+    {
+        display: block !important;
+    }
+}
+
+@media print
+{
+    .nav-bar
+    {
+        display: none !important;
+    }
+
+    .button
+    {
+        display: none !important;
+    }
+
+    #mainDebugPanel
+    {
+        display: none !important;
+    }
+
+}
+
+
+.systemListHeader
+{
+    width: 90%;
+}
+.systemListHeader .button
+{
+    float: right;
+}
+.dirListCont
+{
+    display: none;
+}
+.dirListContShow
+{
+    display: block !important;
+}
+
+.button
+{
+    box-shadow: none !important;
+}
+
+.wrappedLogo
+{
+    float: left;
+    vertical-align: top;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#twocol_HeaderContent_twocol_HeaderUpdPanel > div
+{
+    margin: 0 -6px 0 -6px;
+    padding-bottom: 0;
+    min-height: 150px;
+}
+.gmap
+{
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+#twocol_RightHeader_googlemap_googlemapUpdPanel .gmap
+{
+    margin-right: -6px;
+    margin-left: -6px;
+    height: auto !important;
+    min-height: 155px;
+}
+
+.ServiceListing
+{
+    margin-bottom: 20px;
+}
+.servicelist
+{
+    margin-bottom: 10px !important;
+}
+.servicelist .listingTitle
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: 1.6em; /* text-align:center; */
+}
+.servicelist > .row
+{
+    margin-left: -6px !important;
+    margin-right: -6px !important;
+}
+.activeService > ul
+{
+    border: 1px solid #1e728c;
+}
+.activeService * .pricing-table-title
+{
+    background-color: #2ba6cb;
+}
+.inactiveService
+{
+    zoom: 1;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+.inactiveService:hover
+{
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.inactiveServiceGroup
+{
+    zoom: 1;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+#bookingBackBtn, #systemBackBtn
+{
+    float: left;
+}
+
+.pwrlogo
+{
+    margin-bottom: 10px;
+}
+.liclogo
+{
+    margin-bottom: 5px;
+}
+
+.headingLabel
+{
+    display: block;
+    font-size: 2.8em !important;
+}
+.headerSmallerText
+{
+    font-size: 0.6em !important;
+}
+.subHeadingLabel
+{
+    font-size: 1.0em;
+    line-height: 1.4;
+}
+
+.systemListHeader, .info
+{
+    margin-bottom: 15px !important;
+}
+
+.addressLabel
+{
+    display: block;
+    margin-bottom: 10px;
+}
+.descriptionLabel, .pricing-table-tiny .description
+{
+    text-align: left !important;
+}
+.pricing-table-tiny .description
+{
+    padding: 5px !important;
+}
+.button:hover
+{
+    text-decoration: none;
+}
+
+#ltwocol_MainContent_weeklyschedule_scheUpdPanel > div
+{
+    margin-bottom: 10px;
+    padding: 0 2.5px;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -khtml-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.legend
+{
+    width: 100% !important;
+}
+#scheduleDateHeader
+{
+    font-weight: 200;
+    font-size: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.fulldescriptionLabel, .descriptionLabel, .pricing-table-tiny *
+{
+    line-height: normal !important;
+}
+
+.weeklyTimeslots
+{
+    vertical-align: top;
+}
+@media only screen and (max-width: 767px)
+{
+    .weeklyTimeslots
+    {
+        width: 33% !important;
+        vertical-align: top;
+    }
+    .small-width-full
+    {
+        width: 33% !important;
+    }
+    .directoryTimeList
+    {
+        width: 50% !important;
+    }
+}
+@media only screen and (max-width: 550px)
+{
+    .weeklyTimeslots
+    {
+        width: 50% !important;
+        vertical-align: top;
+    }
+    .small-width-full
+    {
+        width: 100% !important;
+    }
+    .directoryTimeList
+    {
+        width: 100% !important;
+    }
+}
+
+
+.hideServiceTab
+{
+    border-top: 1px solid #e6e6e6;
+}
+
+.noServiceDuration
+{
+    padding: 5px;
+    color: #f00;
+    font-size: 0.80em;
+    font-style: italic;
+    text-align: center;
+}
+
+#notimesfound
+{
+    margin-top: 0;
+    text-align: center;
+}
+
+.doTerms
+{
+    margin-bottom: 8px !important;
+}
+
+#btnSubmit, #closeBooking, #btnPrint, #btnBookNew, #btnContinueRadio
+{
+    width: auto !important;
+    float: right;
+    margin-left: 5px;
+}
+
+
+#btnCancel, #btnDuplicate, #btnReschedule
+{
+    width: auto !important;
+    float: left;
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width:767px)
+{
+    button.button, input[type='submit'].button
+    {
+        padding: 7px 14px 8px;
+    }
+}
+
+#bookingConfirmButtonGrp
+{
+    clear: both;
+    text-align: justify;
+    padding: 20px 10px;
+    background: none;
+    border: none;
+}
+
+#bookingConfirmButtonGrp ul
+{
+    line-height: inherit;
+    margin-bottom: 0;
+}
+
+#bookingConfirmButtonGrp li
+{
+    list-style-type: disc;
+    margin-left: 30px;
+    font-size: 0.8em;
+}
+
+#bookingConfirmButtonGrp h1
+{
+    font-size: 2em;
+}
+
+
+.tabs-content .alt, .listingNameCont.alt.active, .listingNameCont.alt.active *
+{
+    background: #f5f5f5 !important;
+}
+
+@media only screen and (max-width:767px)
+{
+    .listingNameCont
+    {
+        width: 100% !important;
+        margin-bottom: 0 !important;
+        padding: 10px 0 !important;
+        border-top: 1px solid #e6e6e6;
+        border-left: 1px solid #e6e6e6;
+        border-right: 1px solid #e6e6e6;
+    }
+
+    ul.contained.tabs-content > li
+    {
+        border-top: 1px solid #e6e6e6;
+    }
+
+    /*.listingNameCont.active, .listingNameCont.alt.active, .listingNameCont.alt.active *, .tabs dd.active a, .tabs li.active a { background:#2ba6cb !important; }*/
+    .tabs-content .alt
+    {
+        background: inherit !important;
+    }
+    .listingName
+    {
+        border-left: none !important;
+        border-right: none !important;
+    }
+    /*.tiny.tabs { border-bottom:none !important; }*/
+}
+
+.listingName
+{
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.tiny.tabs, .tabs dd.active a, .tabs li.active a, ul.contained.tabs-content > li
+{
+    border-color: #e6e6e6;
+}
+
+.fulldescription, .description
+{
+    padding-left: 10px;
+}
+
+#redirectModalConfirm
+{
+    z-index: 9999 !important;
+    font-size: 1.4em;
+}
+#btnRedirectOk
+{
+    font-size: 0.9em;
+}
+
+#servicechangebtn
+{
+    margin-top: 20px;
+}
+
+.serviceDesc
+{
+    margin: 5px 0;
+    background: #fff;
+}
+
+#modalDoServicesxxxxTab .description
+{
+    text-align: left;
+    line-height: 1.6em;
+}
+#modalDoServicesxxxxTab .description ul
+{
+    font-size: 1em;
+}
+#modalDoServicesxxxxTab .description li
+{
+    margin-left: 10px;
+    list-style-type: disc;
+    line-height: 1.6em;
+}
+
+#bookingConfirmButtonMessage
+{
+    clear: both;
+}
+#btnSubmit
+{
+    margin-bottom: 10px;
+}
+
+.groupHeader
+{
+    margin-top: 5px !important; /* font-weight:bold; */
+    font-size: 1.1em;
+    background: #e6e6e6;
+    cursor: pointer;
+}
+.groupHeader a, .groupHeader a:hover
+{
+    color: #666;
+    text-decoration: none;
+}
+.groupDrop
+{
+    display: none;
+    margin-top: -1px !important;
+    background: #f2f2f2;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.groupDrop > div
+{
+    padding: 3px 6px;
+}
+
+
+#SpecialServiceAlert p
+{
+    font-size: 0.8em !important;
+}
+
+#SpecialServiceAlert ul li
+{
+    font-size: 0.7em !important;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.nolink
+{
+    text-decoration: none;
+}
+.nolink:hover
+{
+    text-decoration: none;
+    cursor: text;
+}
+
+.actionbuttons
+{
+    clear: both;
+    padding-top: 10px;
+}
+
+.serviceGateLeft
+{
+    float: left;
+}
+.serviceGateRight
+{
+    float: right;
+}
+.ServiceDetailsListing .serviceDescription
+{
+    line-height: 1.6em;
+}
+.ServiceDetailsListing .serviceDescription, .servicedescription ul, .serviceDescription ul, .servicedescription ol, .serviceDescription ol
+{
+    font-size: 1em;
+}
+.servicedescription ul, .serviceDescription ul, .servicedescription ol, .serviceDescription ol
+{
+    margin-top: 10px;
+    padding-left: 40px;
+}
+.servicedescription ul li, .serviceDescription ul li
+{
+    list-style-type: disc;
+}
+.servicedescription ol li, .serviceDescription ol li
+{
+    list-style-type: decimal;
+}
+.servicedescription ol, .serviceDescription ol
+{
+    margin-left: 0;
+}
+
+@media only screen and (max-width:1200px)
+{
+    .reveal-modal, .small.reveal-modal, .medium.reveal-modal, .large.reveal-modal, .xlarge.reveal-modal
+    {
+        width: 80%;
+        top: 15px;
+        left: 50%;
+        margin-left: -40%;
+        padding: 20px;
+        height: auto;
+    }
+}
+
+#reschedulestop
+{
+    margin-top: 5px;
+}
+
+/*
+#timelistingAM { padding-left:0; margin-left:-6px; }
+#timelistingPM { padding-right:0; margin-right:-6px; }
+*/
+
+#btnDoRequest
+{
+    margin-top: 5px;
+}
+
+.waitlist
+{
+    color: #fff !important;
+}
+
+.inline.reviewquestion.right
+{
+    text-align: right;
+}
+
+@media only screen and (max-width:767px)
+{
+    .chzn-container
+    {
+        width: 100% !important;
+        margin-top: 5px;
+    }
+
+    .gblurb
+    {
+        margin-top: 20px !important;
+    }
+
+    #timelistingPM
+    {
+        border: none !important;
+    }
+
+    .serviceGateRight, .serviceGateLeft
+    {
+        width: 100% !important;
+        float: none;
+    }
+
+    .action-buttons
+    {
+        margin-right: 0;
+    }
+
+    .inline.reviewquestion.right
+    {
+        text-align: left;
+    }
+
+    .tabs
+    {
+        border-bottom: none !important;
+    }
+
+    .reveal-modal-bg
+    {
+        position: fixed;
+    }
+}
+
+@media only screen and (max-width: 550px)
+{
+    .tiny.tabs dd
+    {
+        display: block;
+        width: 100%;
+    }
+    .small.tabs
+    {
+        border-bottom: none;
+        border-top: 1px solid #c5c5c5;
+    }
+    .small.tabs dd
+    {
+        display: block !important;
+        width: 100%;
+        border-left: 1px solid #c5c5c5;
+        border-right: 1px solid #c5c5c5;
+    }
+    .small.tabs dd.active
+    {
+        border-left: none;
+        border-right: none;
+    }
+    .small.tabs dd a
+    {
+        color: #d0d0d0;
+    }
+    .small.tabs dd.active a
+    {
+        color: #3c3c3c;
+    }
+
+    .timelistTimeLabelSpan
+    {
+        display: none;
+    }
+
+    .weeklyTimeslots
+    {
+        width: 100% !important;
+    }
+
+    #systemViewButtons
+    {
+        position: fixed;
+        z-index: 8000;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        padding: 10px 20px 15px;
+        background: #fff;
+        border-top: 1px solid #e6e6e6;
+    }
+    .pwrlogo
+    {
+        margin-bottom: 50px;
+    }
+}
+
+
+#confbookheader
+{
+    font-weight: bold;
+}
+
+.action-buttons
+{
+    margin: 5px 5px 0 0;
+}
+.payment-history
+{
+    font-size: 0.8em;
+}
+
+/* overrides */
+input, select, textarea
+{
+    padding: 5px !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border: 1px solid #ccc;
+}
+input[type="checkbox"]
+{
+    margin-left: 3px;
+}
+.alert-box, fieldset, input, textarea
+{
+    border-radius: 0 !important;
+}
+
+*
+{
+    text-shadow: none !important;
+}
+
+select, textarea, input[type="file"], input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"]
+{
+    margin-left: 3px;
+}
+
+#btnContinueRadio, #systemBackBtn
+{
+    margin-top: 5px;
+}
+
+.small.button
+{
+    padding: 7px 14px !important;
+}
+
+.review.row .columns .inline.right
+{
+    padding-right: 10px;
+}
+
+fieldset legend
+{
+    top: -0.6em;
+}
+
+div.smallLink
+{
+    margin-right: -3px;
+    padding-right: 3px;
+}
+
+/* split timelisting */
+
+
+/* chosen overrides */
+.chzn-container-single .chzn-single, .chzn-results, .chzn-container .chzn-drop
+{
+    background-image: none !important;
+    border-radius: 0 !important;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+}
+.chzn-results li.highlighted
+{
+    background-image: none !important;
+}
+.chzn-container
+{
+    margin: 6px 0 6px 3px;
+}
+.chzn-container .chzn-drop
+{
+    border-color: #ccc !important;
+}
+.chzn-container-single .chzn-search input
+{
+    background: #fff !important;
+}
+.chzn-container-single .chzn-single div b
+{
+    background-position: 0 5px !important;
+}
+.chzn-with-drop.chzn-container-active .chzn-single div b
+{
+    background-position: -18px 5px !important;
+}
+
+/* .error.placeholder, .valid.placeholder { color:rgba(0, 0, 0, 0.75) !important; } */
+
+/* date picker overrides */
+#ui-datepicker-div
+{
+    font-size: 1em;
+}
+
+.ui-datepicker
+{
+    margin-top: -1px !important;
+}
+
+.ui-datepicker-title, .ui-datepicker-month, .ui-datepicker-year
+{
+    font-family: Arial, Sans-Serif !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+{
+    background: #e6e6e6 !important;
+}
+
+.ui-widget-header, div.ui-datepicker-buttonpane > button.ui-datepicker-close, div.ui-datepicker-buttonpane > button.ui-datepicker-current
+{
+    background: #e6e6e6 !important;
+    border: 1px solid #e6e6e6 !important;
+    color: #2f2f2f !important;
+    font-family: Arial, Sans-Serif !important;
+    text-transform: uppercase;
+}
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight
+{
+    border: 1px solid #e6e6e6 !important;
+    background: #e6e6e6 !important;
+}
+.ui-datepicker td span, .ui-datepicker td a
+{
+    text-align: center !important;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
+{
+    border: 1px solid #009ac5 !important;
+    background: #009ac5 !important;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active
+{
+    border: 1px solid #009ac5;
+    background: #009ac5 !important;
+}
+
+.ui-timepicker-div dl
+{
+    margin: 5px;
+}
+
+.ui-corner-all
+{
+    border-radius: 0 !important;
+}
+
+.ecommwaitmessage
+{
+    margin: 5px 5px 10px 5px;
+    font-size: larger;
+}
+
+.firstAvailableBtn
+{
+    width: 100%;
+    background: #1bdb83;
+    color: #fff;
+    border-color: transparent;
+}
+
+.store-selector
+{
+    display: block;
+    padding: 10px;
+    color: #000;
+}
+.store-selector:hover
+{
+    background: #e9e9e9;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -o-transition: background-color 0ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+}
+.store-selector a:visited, .store-selector a:focus
+{
+    color: #000;
+}
+
+td.waitinglisticon
+{
+    cursor: pointer !important;
+    background: url('images/waitinglisticon.png') #fff no-repeat center center !important;
+    background-size: contain !important;
+    text-indent: -9999px;
+}
+#waitinglistlegend
+{
+    text-align: center;
+}
+#waitinglistlegend img
+{
+    width: 18px;
+}
+
+.scheduleRowTouch.scheduleOwner
+{
+    padding: 10px;
+    text-align: left !important;
+}
+.scheduleRowTouch.scheduleOwner .timeSlot
+{
+    margin-left: 8px !important;
+}
+
+.search-or-and
+{
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+#after-search-text
+{
+    padding: 10px 20px;
+}
+
+.precommit_as
+{
+    color: red;
+}
+.precommit_err
+{
+    outline: 1px solid red;
+}
+/* Calender Css Changes GOB-1292*/
+.calDropDownTitle
+{
+    font-weight: bold;
+    font-size: 11;
+    background-color: #cccccc;
+    color: black;
+    width: 90px;
+    margin: 0px;
+}
+.calBody
+{
+    font-size: 11;
+    border-width: 10px;
+    margin-bottom: 0px;
+}
+.calLinkButton
+{
+    font-weight: bold;
+    font-size: 11;
+    background-color: #cccccc;
+    color: black;
+    width: 90px;
+    margin-top: 6px;
+}
+.calenderTitle
+{
+    padding: 0px;
+    background-color:#cccccc;
+}
+#gbcalendar table
+{
+    table-layout: fixed !important;
+}
+#gbcalendar table tbody tr:first-child td:nth-child(2)
+{
+    padding-left: 20px !important;
+}
+#gbcalendar table tbody tr:first-child td:nth-child(3)
+{
+    padding-right: 20px !important;
+}
+#gbcalendar table tbody tr:first-child td:first-child
+{
+    padding-left: 10px !important;
+}
+#gbcalendar table tbody tr:first-child td:last-child
+{
+    padding-right: 10px !important;
+}
+#gbcalendar table tbody tr:not(:first-child) td
+{
+    height: 25px;
+    padding: 0px !important;
+}
+
+.uppercase 
+{
+    text-transform: uppercase;
+}
